@@ -1,3 +1,5 @@
+![DSC02828](https://user-images.githubusercontent.com/121644329/210115160-8a283f81-5afd-439f-b41c-e01cd687a7a4.JPG)
+
 This robot code is made for Reuseum Educational boxy the robot
 this code usses: 
 esp8266 nodemcu v1
