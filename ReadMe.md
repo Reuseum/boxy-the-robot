@@ -3,12 +3,12 @@
 This robot code is made for Reuseum Educational Inc. Boxy the Robot
 
 This robot required the materials below:
-1x esp8266 NODEMCU v1
-1x l9110s motor driver
-2x geared DC motors
-1x 8.4v 18650 holder
-2x 18650 batteries
-1x custom power breakout board
+- 1x esp8266 NODEMCU v1
+- 1x l9110s motor driver
+- 2x geared DC motors
+- 1x 8.4v 18650 holder
+- 2x 18650 batteries
+- 1x custom power breakout board
 
 This code is for a 2wd robot made out of a box and an esp8266 NODEMCU v1. It uses virtualjoystick from" https://github.com/jeromeetienne/virtualjoystick.js" to control the robot's movement via a web interface.
 
