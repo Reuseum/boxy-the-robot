@@ -1,7 +1,8 @@
 ![DSC02828](https://user-images.githubusercontent.com/121644329/210115160-8a283f81-5afd-439f-b41c-e01cd687a7a4.JPG)
 
-This robot code is made for Reuseum Educational boxy the robot
-this code uses: 
+This robot code is made for Reuseum Educational Inc. Boxy the Robot
+
+This robot required the materials below:
 1x esp8266 NODEMCU v1
 1x l9110s motor driver
 2x geared DC motors
@@ -9,8 +10,7 @@ this code uses:
 2x 18650 batteries
 1x custom power breakout board
 
-/* This code is for a 2wd robot made out of a box and an esp8266 NODEMCU v1. It uses
- virtualjoystick from" https://github.com/jeromeetienne/virtualjoystick.js" to control the robot's movement via a web interface.
+This code is for a 2wd robot made out of a box and an esp8266 NODEMCU v1. It uses virtualjoystick from" https://github.com/jeromeetienne/virtualjoystick.js" to control the robot's movement via a web interface.
 
 The robot has two motors, Motor A and Motor B. These motors are connected to 
 pin D5 and pin D1 respectively, which control the speed of the motors. The direction of 
@@ -27,4 +27,3 @@ joystick and slider on the web interface.
 - The updateSliderPWM() function updates the value of the maximum motor speed based on the position of the slider and sends it to the server.
 - The setup() function initializes the pin modes and starts the WiFi connection. 
 - The loop() function continually listens for incoming HTTP requests and sends them to the appropriate functions to be handled.
-*/
