@@ -1,1 +1,0 @@
-v1 boxy code usses const char joystick_html[] instead of spifs does not have led button or speed slider
