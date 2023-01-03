@@ -10,15 +10,12 @@ This robot required the materials below:
 - 2x 18650 batteries
 - 1x custom power breakout board
 
-This code is for a 2wd robot made out of a box and an esp8266 NODEMCU v1. It uses virtualjoystick from" https://github.com/jeromeetienne/virtualjoystick.js" to control the robot's movement via a web interface.
+This code is for a 2wd robot made out of a box and an esp8266 NODEMCU v1. It uses virtualjoystick from https://github.com/jeromeetienne/virtualjoystick.js to control the robot's movement via a web interface.
 
-The robot has two motors, Motor A and Motor B. These motors are connected to 
-pin D5 and pin D1 respectively, which control the speed of the motors. The direction of 
-the motors are controlled by pin D6 and pin D2 respectively. The robot also has 
-an LED variable built onto the esp LED.
+The robot has two motors, Motor A and Motor B. These motors are connected to pin D5 and pin D1 respectively, which control the speed of the motors. The direction of 
+the motors are controlled by pin D6 and pin D2 respectively. The robot also has an LED variable built onto the esp LED.
 
-The main function of this code is to control the motors and LED based on the input from the 
-joystick and slider on the web interface. 
+The main function of this code is to control the motors and LED based on the input from the joystick and slider on the web interface. 
 
 - The toggleLED() function toggles the state of the LED by inverting its current state. 
 - The getLEDState() function retrieves the current state of the LED and sends it back to the web interface. 
