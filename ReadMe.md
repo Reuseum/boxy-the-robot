@@ -17,7 +17,7 @@ For the robot build, we will be pushing the code via the Arduino IDE and will th
 The robot has two motors, Motor A and Motor B. These motors are connected to pin D5 and pin D1 respectively, which control the speed of the motors. The direction of 
 the motors are controlled by pin D6 and pin D2 respectively. The robot also has an LED variable built onto the esp LED.
 
-The main function of this code is to control the motors and LED based on the input from the joystick and slider on the web interface. 
+The main function of this code is to control the motors and LED based on the input from the joystick and slider on the web interface. The ESP will ping out its own wifi to connect to and will be named based on the ssid name in the code. The IP created is what must be connected to in order to control the robot via a smart device.
 
 - The toggleLED() function toggles the state of the LED by inverting its current state. 
 - The getLEDState() function retrieves the current state of the LED and sends it back to the web interface. 
