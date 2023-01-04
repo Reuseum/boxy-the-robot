@@ -12,6 +12,8 @@ This robot required the materials below:
 
 This code is for a 2wd robot made out of a box and an esp8266 NODEMCU v1. It uses virtualjoystick from https://github.com/jeromeetienne/virtualjoystick.js to control the robot's movement via a web interface.
 
+For the robot build, we will be pushing the code via the Arduino IDE and will therefore require the ESP8266 libraries for the Arduino. The following link will guide you with the installation of the librariers for your ESP. https://randomnerdtutorials.com/how-to-install-esp8266-board-arduino-ide/
+
 The robot has two motors, Motor A and Motor B. These motors are connected to pin D5 and pin D1 respectively, which control the speed of the motors. The direction of 
 the motors are controlled by pin D6 and pin D2 respectively. The robot also has an LED variable built onto the esp LED.
 
